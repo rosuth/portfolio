@@ -1,20 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Your Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>github/rosuth</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        #top {
+            text-align: center;
+        }
+
+        .project-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+
+        .project-card {
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px;
+            background-color: #fff;
+        }
+
+        .project-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .project-card h2 {
+            margin-top: 1px;
+        }
+
+        @media (max-width: 768px) {
+            .project-card {
+                width: 100%;
+            }
+        }
+        a{
+        text-decoration:none;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>About Me</h1>
-    <p>Write a short introduction about yourself.</p>
+    <h2 id="top">Rohit Suthar</h2>
+	<p id="top">Software Engineer<br/>
+    Backend Development | Databases | Cloud | Writing<br/>
+	<a href="https://github.com/rosuth">github.com/rosuth</a>
+	<a href="https://medium.com/@rosuth">medium.com/rosuth</a>
+	<a href="https://www.linkedin.com/in/rosuth/">linkedin.com/rosuth</a>
+    <br/>✉️ rohitmten@gmail.com
+    </p>
 
-    <h1>Projects</h1>
-    <ul>
-        <li><a href="https://github.com/yourusername/project1">Project 1</a></li>
-        <li><a href="https://github.com/yourusername/project2">Project 2</a></li>
-    </ul>
+    
+    <hr/>
+    <div class="project-container">
+        <div class="project-card">
+            <h2>employee-care</h2>
+            <p>This web application helps organizations to efficiently oversee their employee records and leaves. It offers dual interfaces, catering to both employees and administrators, enabling easy access to the application.</p>
+            <p><a href="https://github.com/rosuth/employee-care">https://github.com/rosuth/employee-care</a></p>
+            <p><small>Java, Spring Boot, MySQL, Docker, Kubernetes</small></p>
+        </div>
 
-    <h1>Contact</h1>
-    <p>Email: youremail@example.com</p>
+        <div class="project-card">
+            <h2>notes</h2>
+            <p>A simple and easy to use application for notes that can be used to create, save, share, copy and download them.</p>
+            <p><a href="https://github.com/rosuth/notes">https://github.com/rosuth/notes</a></p>
+            <p><small>Java, Spring Boot, MongoDB</small></p>
+        </div>
+
+
+
+    </div>
 </body>
+
 </html>
