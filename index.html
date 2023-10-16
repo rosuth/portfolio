@@ -1,89 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>github/rosuth</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>github.com/rosuth</title>
+<style>
+  body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icons {
+    font-size: 24px;
+  }
+  .container {
+    text-align: center;
+  }
+  h1{
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+  }
 
-        #top {
-            text-align: center;
-        }
+  p{
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    margin-top: -30px;
+  }
+  i{
+    padding: 5px;
+    color: black;
+  }
+  li{
+    display: inline;
+  }
+a{
+    text-decoration: none;
+    color: #e30047;
+}
+a:hover{
+    text-decoration: underline;
+}
 
-        .project-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            margin: 20px 0;
-        }
-
-        .project-card {
-            width: 300px;
-            border: 1px solid #ccc;
-            border-radius: 10px;
-            padding: 10px;
-            margin: 10px;
-            background-color: #fff;
-        }
-
-        .project-card img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 5px;
-        }
-
-        .project-card h2 {
-            margin-top: 1px;
-        }
-
-        @media (max-width: 768px) {
-            .project-card {
-                width: 100%;
-            }
-        }
-        a{
-        text-decoration:none;
-        }
-    </style>
+</style>
 </head>
-
 <body>
-    <h2 id="top">Rohit Suthar</h2>
-	<p id="top">Software Engineer<br/>
-    Backend Development | Databases | Cloud | Writing<br/>
-	<a href="https://github.com/rosuth">github.com/rosuth</a>
-	<a href="https://medium.com/@rosuth">medium.com/rosuth</a>
-	<a href="https://www.linkedin.com/in/rosuth/">linkedin.com/rosuth</a>
-    <br/>✉️ rohitmten@gmail.com
-    </p>
-
-    
-    <hr/>
-    <div class="project-container">
-        <div class="project-card">
-            <h2>employee-care</h2>
-            <p>This web application helps organizations to efficiently oversee their employee records and leaves. It offers dual interfaces, catering to both employees and administrators, enabling easy access to the application.</p>
-            <p><a href="https://github.com/rosuth/employee-care">https://github.com/rosuth/employee-care</a></p>
-            <p><small>Java, Spring Boot, MySQL, Docker, Kubernetes</small></p>
-        </div>
-
-        <div class="project-card">
-            <h2>notes</h2>
-            <p>A simple and easy to use application for notes that can be used to create, save, share, copy and download them.</p>
-            <p><a href="https://github.com/rosuth/notes">https://github.com/rosuth/notes</a></p>
-            <p><small>Java, Spring Boot, MongoDB</small></p>
-        </div>
-
-
-
-    </div>
+  <div class="container">
+    <h1>Rohit<b>Suthar</b></h1>
+    <p>Software Engineer at <b style="color:#e30047;"><a href="https://www.snapdeal.com/">Snapdeal</a></b></p>
+<hr/>
+<a target="_blank" href="https://github.com/rosuth"><i id="github" class="fa fa-github" style="font-size:40px"></i></a>
+<a target="_blank" href="https://medium.com/@rosuth"><i id="medium" class="fa fa-medium" style="font-size:40px"></i></a>
+<a target="_blank" href="https://www.linkedin.com/in/rosuth/"><i id="linkedin" class="fa fa-linkedin" style="font-size:40px"></i></a>
+<a target="_blank" href="mailto:rohitmten@gmail.com"><i id="envelope" class="fa fa-envelope" style="font-size:40px"></i></a>
+  </div>
 </body>
-
 </html>
